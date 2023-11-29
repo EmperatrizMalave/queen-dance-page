@@ -4,7 +4,7 @@
 import Nav from "../src/components/nav";
 const App = () => {
   return (
-    <div className='bg-slate-900'>
+    <div className='bg-white'>
         <Nav/>
     </div>
   )
