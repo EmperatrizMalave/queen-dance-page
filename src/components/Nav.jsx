@@ -5,6 +5,8 @@ import { TiThMenuOutline } from "react-icons/ti";
 import { FaHome } from "react-icons/fa";
 import { IoIosMailOpen } from "react-icons/io";
 import { BiWorld } from "react-icons/bi";
+import zumba from '/src/assets/zumba.png'
+
 
 const Nav = () => {
 
@@ -34,22 +36,23 @@ Contacto</li>
  </>
   return (
     <nav>
-        <div className='flex justify-between py-5'>
-            <div className='lg:flex md:flex lg: flex-1 justify-end font-normal hidden'>
-        <div className='flex-10'>
-    <ul className='flex gap-8 mr-16 test-[18px]'>
-       <Link spy={true} smooth={true} to="Home">
-            <li className='hover:text-blue-500 hover:border-fuchsia-600 cursor-pointer' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}>Inicio</li>
-       </Link>
-       <Link spy={true} smooth={true} to="Services">
-            <li className='hover:text-blue-500 cursor-pointer' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}>Nuestros servicios</li>
+        <div className='flex items-center justify-between py-2 bg-sky-500 '>
+            <p className='ml-8 text-slate-200'>QUEEN DANCE</p>
+        <div className='lg:flex md:flex lg: flex-1 justify-end font-normal hidden'>
+        <div>
+            <ul className='gap-8 mr-16 flex items-center'>
+            <img src={zumba} id='img' className='w-auto h-16'/>
+    <Link spy={true} smooth={true} to="Home">
+            <li className='hover:text-blue-500 hover:border-fuchsia-600 cursor-pointer text-slate-200' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}>Inicio</li>
+    </Link>
+    <Link spy={true} smooth={true} to="Services">
+            <li className='hover:text-blue-500 cursor-pointer text-slate-200' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}>Nuestros servicios</li>
         </Link>
         <Link spy={true} smooth={true} to="Contact">
-            <li className='hover:text-blue-500 cursor-pointer' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}>Contacto</li>
+            <li className='hover:text-blue-500 cursor-pointer text-slate-200' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}>Contacto</li>
         </Link>
-    </ul>
-        
-                </div>
+            </ul>
+        </div>
         </div>
         <div>
             {click && content}
