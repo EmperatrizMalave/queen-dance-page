@@ -1,5 +1,5 @@
 import {useState} from 'react'
-import { Link } from 'react-scroll';
+import { Link } from 'react-router-dom';
 import {FaTimes} from 'react-icons/fa';
 import { TiThMenuOutline } from "react-icons/ti";
 import { FaHome } from "react-icons/fa";
@@ -18,14 +18,14 @@ const Nav = () => {
  const content = <>
     <div className='block absolute top-12 left-0'>
     <ul className='text-xl p-10'>
-       <Link spy={true} smooth={true} to="Home" className=''>
+       <Link to="/home" spy={true} smooth={true}>
             <li className='my-auto hover:bg-lime-400 hover: rounded' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}><FaHome />
             Inicio</li>
        </Link>
-       <Link spy={true} smooth={true}to="Services">
+       <Link to="/services" spy={true} smooth={true} >
             <li className='border-slate-800 hover:bg-red-500 hover:rounded' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}><BiWorld />Nuestros servicios</li>
         </Link>
-        <Link spy={true} smooth={true}to="Contact">
+        <Link spy={true} smooth={true} to="Contact">
             <li className='border-slate-800 hover:bg-blue-500 hover:rounded' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}><IoIosMailOpen />
 
 Contacto</li>

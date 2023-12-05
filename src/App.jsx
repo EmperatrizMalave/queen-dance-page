@@ -1,15 +1,18 @@
+import { Routes, Route } from 'react-router-dom';
+import Nav from './components/Nav';
 import Home from './pages/Home';
-//import Contact from '../pages/Contact';
-//import Services from '../pages/Services';
-import Nav from '../src/components/nav';
 import Services from '../src/pages/Services'
+import Contact from './pages/Contact';
 const App = () => {
   return (
-    <div className='bg-white'>
-        <Nav/>
-        <Home />
-        <Services />
-    </div>
+    <div>
+      <Nav />
+    <Routes>
+        <Route path="/home" element={ <Home /> }/>
+        <Route path="/services" element={ <Services /> }/>
+        <Route path="/contact" element={ <Contact /> }/>
+    </Routes>
+  </div>
   )
 }
 
