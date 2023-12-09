@@ -1,7 +1,7 @@
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div className="bg-[#F2F0E1] ">Contact</div>
   )
 }
 

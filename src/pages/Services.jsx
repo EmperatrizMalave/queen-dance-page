@@ -1,8 +1,8 @@
 
-
 const Services = () => {
   return (
-    <div>Services</div>
+    <div className="bg-[#F2F0E1]">Nuestros servicios
+    </div>
   )
 }
 
