@@ -1,0 +1,161 @@
+.main-service-container{
+    padding-top: 40px;
+}
+
+.service-title{
+    font-size: Potta-one;
+    font-size: 30px;
+}
+
+.service-paragraph {
+    font-family: Dhurjati;
+    font-size: 18px;
+}
+.service-paragraph-two {
+    font-family: RubikBubbles;
+    font-size: 20px;
+    font-weight: bold;
+    color: #095183;
+    display: flex;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;
+}
+
+.title-container {
+    color: #095183;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+
+.main-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+/*card-1*/
+.card-one {
+    position: relative;
+    width: 380px;
+    height: 360px;
+    background: #8cb7ce;
+    border-top:8px solid;
+    border-top-color:#9b84c6;
+    border-bottom: 6px solid;
+    border-bottom-color:#F6DC6C;
+    border-left:6px solid;
+    border-left-color:#9b84c6;
+    border-right:8px solid;
+    border-right-color:#F6DC6C;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+
+}
+
+.card-one:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #9b84c6;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.card-one:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #F6DC6C;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+
+.card-one:hover:before {
+    transform: rotate(20deg);
+    box-shadow: 0 2px 20px rgba(0,0,0,0.2);
+}
+
+.card-one:hover:after {
+    transform: rotate(10deg);
+    box-shadow: 0 2px 20px rgba(0,0,0,0.2);
+}
+
+.boxdetails-one {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f899c6;
+    transition: 0.5s;
+    z-index: 2;
+}
+
+/*card-2*/
+
+.card-two {
+    position: relative;
+    width: 380px;
+    height: 360px;
+    background: #8cb7ce;
+    border-top: 8px solid;
+    border-top-color:#F6DC6C;
+    border-bottom: 6px solid;
+    border-bottom-color:#9b84c6;
+    border-left: 6px solid;
+    border-left-color:#F6DC6C;
+    border-right:8px solid;
+    border-right-color:#9b84c6;
+    border-radius: 4px;
+    
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+.card-two:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #9b84c6;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.card-two:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #F6DC6C;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+
+.card-two:hover:before {
+    transform: rotate(20deg);
+    box-shadow: 0 2px 20px rgba(0,0,0,0.2);
+}
+
+.card-two:hover:after {
+    transform: rotate(10deg);
+    box-shadow: 0 2px 20px rgba(0,0,0,0.2);
+}
+
+.boxdetails-two {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f899c6;
+    transition: 0.5s;
+    z-index: 2;
+}
