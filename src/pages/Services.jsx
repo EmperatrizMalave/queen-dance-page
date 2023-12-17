@@ -1,6 +1,6 @@
 import "./styleservices.css"
-import icon from "../assets/bailarin.png"
-import iconone from "../assets/saltar.png"
+import funtional from "../assets/funtional.png"
+import jump from "../assets/jump.png"
 
 
 
@@ -17,7 +17,7 @@ const Services = () => {
       <div className="boxdetails-one">
         <p className='service-paragraph-two'>Jump</p>
           <button>
-          <img id="img" src={iconone}/>
+          <img id="img" src={jump}/>
           </button> 
       </div>
       </div>
@@ -26,7 +26,7 @@ const Services = () => {
       <div className="boxdetails-two">
           <p className='service-paragraph-two'>Zumba funcional</p>
           <button>
-            <img id="img" src={icon}/>
+            <img id="img" src={funtional}/>
           </button>
       </div>
       </div>

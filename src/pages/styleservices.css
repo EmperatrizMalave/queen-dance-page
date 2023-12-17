@@ -13,7 +13,7 @@
 }
 .service-paragraph-two {
     font-family: RubikBubbles;
-    font-size: 20px;
+    font-size: 32px;
     font-weight: bold;
     color: #095183;
     display: flex;
@@ -37,7 +37,7 @@
 /*card-1*/
 .card-one {
     position: relative;
-    width: 380px;
+    width: 400px;
     height: 360px;
     background: #8cb7ce;
     border-top:8px solid;
@@ -91,6 +91,10 @@
     left: 20px;
     bottom: 20px;
     right: 20px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #f899c6;
     transition: 0.5s;
     z-index: 2;
@@ -100,7 +104,7 @@
 
 .card-two {
     position: relative;
-    width: 380px;
+    width: 400px;
     height: 360px;
     background: #8cb7ce;
     border-top: 8px solid;
@@ -155,6 +159,10 @@
     left: 20px;
     bottom: 20px;
     right: 20px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #f899c6;
     transition: 0.5s;
     z-index: 2;
