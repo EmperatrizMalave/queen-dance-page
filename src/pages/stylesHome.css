@@ -1,0 +1,11 @@
+img {
+	transition: transform 1s;
+}
+
+.img-home:hover {
+	transform: scale(0.9) rotate(6deg);
+}
+
+.img-icon:hover {
+	transform: scale(1.2) rotate(8deg);
+}

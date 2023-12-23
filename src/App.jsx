@@ -4,8 +4,8 @@ import Home from './pages/Home';
 import Services from '../src/pages/Services'
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
-
-
+import { ZumbaFunctional } from './pages/ZumbaFunctional';
+import { Jump } from './pages/Jump';
 //import LoadingSpinner from './components/LoadingSpinner';
 
 const App = () => {
@@ -18,6 +18,9 @@ const App = () => {
         <Route path="" element={ <Home /> }/>
         <Route path="/services" element={ <Services /> }/>
         <Route path="/contact" element={ <Contact /> }/>
+        <Route path="/functional" element={ <ZumbaFunctional/> }/>
+        <Route path="/jump" element={ <Jump/> }/>
+
     </Routes>
     <Footer />
   </div>

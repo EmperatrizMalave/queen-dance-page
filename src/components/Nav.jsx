@@ -1,11 +1,12 @@
-import {useState} from 'react'
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {FaTimes} from 'react-icons/fa';
-import { TiThMenuOutline } from "react-icons/ti";
-import { FaHome } from "react-icons/fa";
-import { IoIosMailOpen } from "react-icons/io";
-import { BiWorld } from "react-icons/bi";
+import { TiThMenuOutline } from 'react-icons/ti';
+import { FaHome } from 'react-icons/fa';
+import { IoIosMailOpen } from 'react-icons/io';
+import { BiWorld } from 'react-icons/bi';
 import zumba from '/src/assets/zumba.png'
+import '../pages/styleservices.css'
 
 
 const Nav = () => {
@@ -40,15 +41,15 @@ Contacto</li>
         <div className='lg:flex md:flex lg: flex-1 justify-end font-normal hidden'>
         <div>
             <ul className='gap-8 mr-16 flex items-center'>
-            <img src={zumba} id='img' className='w-auto h-16'/>
+            <img src={zumba} id='img' className='w-auto h-16 img-icon'/>
     <Link spy={true} smooth={true} to="">
-            <li className='font-bold text-[#F2F0E1] hover:text-[#0A1940] text-white-600 cursor-pointer text-slate-200' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}>Inicio</li>
+            <li className='font-bold text-[#F2F0E1] hover:text-[#095183] text-white-600 cursor-pointer text-slate-200' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}>Inicio</li>
     </Link>
     <Link spy={true} smooth={true} to="services">
-            <li className='font-bold text-[#F2F0E1] hover:text-[#0A1940] cursor-pointer text-slate-200' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}>Nuestros servicios</li>
+            <li className='font-bold text-[#F2F0E1] hover:text-[#095183] cursor-pointer text-slate-200' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}>Nuestros servicios</li>
         </Link>
         <Link spy={true} smooth={true} to="contact">
-            <li className='font-bold text-[#F2F0E1] hover:text-[#0A1940] cursor-pointer text-slate-200' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}>Contacto</li>
+            <li className='font-bold text-[#F2F0E1] hover:text-[#095183] cursor-pointer text-slate-200' style={{ fontFamily:'Dhurjati', fontSize: '18px' }}>Contacto</li>
         </Link>
             </ul>
         </div>

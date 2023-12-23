@@ -1,7 +1,7 @@
 import "./footerstyle.css"
 const Footer = () => {
   return (
-    <div className="container">
+    <div className="container mt-0">
     <h3 className="bold">Redes sociales</h3>
       <a className="icon flex items-center justify-center" href="#">
         <img width="32" height="32" src="https://img.icons8.com/windows/32/whatsapp--v1.png" alt="whatsapp--v1"/>
