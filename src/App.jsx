@@ -11,17 +11,17 @@ import { Jump } from './pages/Jump';
 const App = () => {
   return (
     <div>
-    <Nav />
+      <Nav />
     <div>
     </div>
-    <Routes>
-        <Route path="" element={ <Home /> }/>
-        <Route path="/services" element={ <Services /> }/>
-        <Route path="/contact" element={ <Contact /> }/>
-        <Route path="/functional" element={ <ZumbaFunctional/> }/>
-        <Route path="/jump" element={ <Jump/> }/>
+      <Routes>
+          <Route path="" element={ <Home /> }/>
+          <Route path="/services" element={ <Services /> }/>
+          <Route path="/contact" element={ <Contact /> }/>
+          <Route path="services/functional" element={ <ZumbaFunctional/> }/>
+          <Route path="/services/jump" element={ <Jump/> }/>
 
-    </Routes>
+      </Routes>
     <Footer />
   </div>
   )

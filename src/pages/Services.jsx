@@ -15,7 +15,7 @@ const Services = () => {
     <div className='card-one'>
       <div className="boxdetails-one">
         <p className='service-paragraph-two'>Jump</p>
-          <Link to="./Jump.jsx">
+          <Link to="/services/jump">
             <img className="icon-jump" src={jump}/>
           </Link>
       </div>
@@ -24,7 +24,7 @@ const Services = () => {
       <div className="card-two">
       <div className="boxdetails-two">
           <p className='service-paragraph-two'>Zumba funcional</p>
-          <Link to ="./ZumbaFunctional.jsx">
+          <Link to ="/services/functional">
             <img className="icon-functional" src={funtional}  />
           </Link>
       </div>
