@@ -11,12 +11,12 @@ const Services = () => {
       <p className='service-paragraph-one'>Consulta nuestros servicios en los iconos</p>
     </div>
     {/**card-1*/}
-    <div className="main-card-container pb-8">
-    <div className='card-one'>
+    <div className="main-card-container flex flex-col lg:flex-row">
+    <div className='card-one mb-4 lg:mb-0 lg:mr-4 sm-w-10'>
       <div className="boxdetails-one">
-        <p className='service-paragraph-two'>Jump</p>
+        <p className='service-paragraph-two first:text-md '>Jump</p>
           <Link to="/services/jump">
-            <img className="icon-jump" src={jump}/>
+            <img className="icon-jump w-full" src={jump}/>
           </Link>
       </div>
       </div>
@@ -25,7 +25,7 @@ const Services = () => {
       <div className="boxdetails-two">
           <p className='service-paragraph-two'>Zumba funcional</p>
           <Link to ="/services/functional">
-            <img className="icon-functional" src={funtional}  />
+            <img className="icon-functional w-full" src={funtional}  />
           </Link>
       </div>
       </div>

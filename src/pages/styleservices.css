@@ -177,3 +177,13 @@ img {
 .icon-functional:hover {
 	transform: scale(1.1) rotate(6deg);
 }
+
+
+@media (max-width: 452px) {
+        .main-card-container .card-one,
+        .main-card-container .card-two {
+        margin: 10px; 
+        width: calc(100% - 20px);
+        font-size: 0.75rem; 
+  }
+}

@@ -1,73 +1,38 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-/* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
 
-body {
+.list-menu {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-  overflow: hidden;
-}*/
-
-.hamburger-buttons .hamburger-button {
-  list-style: none;
-  text-align: center;
+  flex-direction: column;
+  margin-left: 20%;
+  gap: 30px;
 }
 
-
-.hamburger-buttons:hover .button {
-  color: #0002;
-}
-
-.hamburger-buttons .hamburger-button .button:hover {
-  color: #000;
-  background: #fff;
-}
-
-.button:before {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 5em;
-  z-index: -1;
-  font-weight: 900;
+.link {
+  position: relative;
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 2px;
+  line-height: 1em;
   text-transform: uppercase;
-  letter-spacing: 500px;
-  opacity: 0;
-  transition: letter-spacing 0.5s;
-  width: 100vw;
-  height: 100vh;
+  color: transparent;
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.5);
 }
-.button:hover:before {
+
+.link:hover {
+  color: #00ade1;
+  top: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.link:before {
   content: attr(data-text);
-  opacity: 1;
-  letter-spacing: 10px;
+  position: absolute;
+  color: #00ade1;
+  top: 12px;
+  margin: -9px;
+  border-right: 8px solid #00ade1;
+  width: 0%;
+  overflow: hidden;
 }
 
-.hamburger-button:nth-child(1) .button:before {
-  background: #81ecec;
-}
-
-.hamburger-buttons .hamburger-button:nth-child(2) .button:before {
-  background: #ff7675;
-}
-.hamburger-buttons .hamburger-button:nth-child(3) .button:before {
-  background: #55efc4;
-}
-.hamburger-buttons .hamburger-button:nth-child(4) .button:before {
-  background: #a29bfe;
-}
-.hamburger-buttons .hamburger-button:nth-child(5) .button:before {
-  background: #fd79a8;
-}
