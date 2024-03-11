@@ -9,23 +9,20 @@ export const Jump = () => {
     </div>
     <Carousel className="flex items-center " >
       <div className="flex justify-center">
-        <img src="/src/assets/jump1.png" alt="Slide 1" />
-        <img src="/src/assets/jump1.png" alt="Slide 2" />
-        <img src="/src/assets/jump1.png" alt="Slide 3" />
+        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 1" />
+        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 2" />
+        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 3" />
 
       </div>
       <div className="flex justify-center">
-        <img src="/src/assets/jump1.png" alt="Slide 1" />
-        <img src="/src/assets/jump1.png" alt="Slide 2" />
-        <img src="/src/assets/jump1.png" alt="Slide 3" />
+        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 1" />
+        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 2" />
+        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 3" />
       </div>
       <div className="flex justify-center">
-        <img src="/src/assets/jump1.png" alt="Slide 1" />
-        <img src="/src/assets/jump1.png" alt="Slide 2" />
-        <img src="/src/assets/jump1.png" alt="Slide 3" />
-      </div>
-      <div className="flex justify-center">
-        <img src="/src/assets/marco-1.png" alt="Slide 3" />
+        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 1" />
+        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 2" />
+        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 3" />
       </div>
     </Carousel>
     </div>

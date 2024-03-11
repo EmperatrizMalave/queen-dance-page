@@ -1,7 +1,5 @@
 import { Link } from 'react-router-dom';
 import "./styleservices.css"
-import funtional from "../assets/funtional.png"
-import jump from "../assets/jump.png"
 
 const Services = () => {
   return (
@@ -16,7 +14,7 @@ const Services = () => {
       <div className="boxdetails-one">
         <p className='service-paragraph-two first:text-md '>Jump</p>
           <Link to="/services/jump">
-            <img className="icon-jump w-full" src={jump}/>
+          <img src="https://i.imgur.com/z8rdtqf.png" className="icon-jump w-full"/>
           </Link>
       </div>
       </div>
@@ -25,7 +23,7 @@ const Services = () => {
       <div className="boxdetails-two">
           <p className='service-paragraph-two'>Zumba funcional</p>
           <Link to ="/services/functional">
-            <img className="icon-functional w-full" src={funtional}  />
+            <img className="icon-functional w-full" src="https://i.imgur.com/7dR1PwQ.png"  />
           </Link>
       </div>
       </div>

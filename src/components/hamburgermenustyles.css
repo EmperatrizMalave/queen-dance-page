@@ -20,7 +20,7 @@
 }
 
 .link:hover {
-  color: #00ade1;
+  color: #9440d8;
   top: 12px;
   transition: background-color 0.3s ease;
 }
@@ -28,10 +28,10 @@
 .link:before {
   content: attr(data-text);
   position: absolute;
-  color: #00ade1;
+  color: #9440d8;
   top: 12px;
   margin: -9px;
-  border-right: 8px solid #00ade1;
+  border-right: 8px solid #9440d8;
   width: 0%;
   overflow: hidden;
 }
