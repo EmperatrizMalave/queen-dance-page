@@ -8,19 +8,19 @@ export const ZumbaFunctional = () => {
     </div>
     <Carousel className="flex items-center " >
     <div className="flex justify-center">
-      <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 1" />
-      <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 2" />
-      <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 3" />
+      <img src="https://imgur.com/npGz1gv.png" alt="Slide 1" className="rounded-lg border border-gray-300 shadow-md" />
+      <img src="https://imgur.com/NPCHMrM.png" alt="Slide 2" className="rounded-lg border border-gray-300 shadow-md" />
+      <img src="https://imgur.com/O6qjbll.png" alt="Slide 3" className="rounded-lg border border-gray-300 shadow-md" />
     </div>
     <div className="flex justify-center">
-      <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 1" />
-      <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 2" />
-      <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 3" />
+      <img src="https://imgur.com/ZdTIJ7A.png" alt="Slide 1" className="rounded-lg border border-gray-300 shadow-md" />
+      <img src="https://imgur.com/npGz1gv.png" alt="Slide 2" className="rounded-lg border border-gray-300 shadow-md" />
+      <img src="https://imgur.com/dccNMX8.png" alt="Slide 3" className="rounded-lg border border-gray-300 shadow-md" />
     </div>
     <div className="flex justify-center">
-      <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 1" />
-      <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 2" />
-      <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 3" />
+      <img src="https://imgur.com/W7Xarz3.png" alt="Slide 1" className="rounded-lg border border-gray-300 shadow-md" />
+      <img src="https://imgur.com/9dIiR8L.png" alt="Slide 2" className="rounded-lg border border-gray-300 shadow-md" />
+      <img src="https://imgur.com/O6qjbll.png" alt="Slide 3" className="rounded-lg border border-gray-300 shadow-md" />
     </div>
   </Carousel>
   </div>

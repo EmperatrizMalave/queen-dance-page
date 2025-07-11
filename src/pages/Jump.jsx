@@ -9,20 +9,29 @@ export const Jump = () => {
     </div>
     <Carousel className="flex items-center " >
       <div className="flex justify-center">
-        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 1" />
-        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 2" />
-        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 3" />
+        <img src="https://imgur.com/MUi4VUi.png" alt="Slide 1" className="rounded-lg border border-gray-300 shadow-md"
+/>
+        <img src="https://imgur.com/OoLMhVq.png" alt="Slide 2" className="rounded-lg border border-gray-300 shadow-md"
+/>
+        <img src="https://imgur.com/01gd09S.png" alt="Slide 3" className="rounded-lg border border-gray-300 shadow-md"
+/>
 
       </div>
       <div className="flex justify-center">
-        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 1" />
-        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 2" />
-        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 3" />
+        <img src="https://imgur.com/WHoVXlF.png" alt="Slide 1" className="rounded-lg border border-gray-300 shadow-md"
+ />
+        <img src="https://imgur.com/sKO33g5.png" alt="Slide 2" className="rounded-lg border border-gray-300 shadow-md"
+/>
+        <img src="https://imgur.com/qTJSaDU.png" alt="Slide 3" className="rounded-lg border border-gray-300 shadow-md"
+ />
       </div>
       <div className="flex justify-center">
-        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 1" />
-        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 2" />
-        <img src="https://i.imgur.com/tjXcbbG.png" alt="Slide 3" />
+        <img src="https://imgur.com/OoLMhVq.png" alt="Slide 1" className="rounded-lg border border-gray-300 shadow-md"
+ />
+        <img src="https://imgur.com/01gd09S.png" alt="Slide 2" className="rounded-lg border border-gray-300 shadow-md"
+ />
+        <img src="https://imgur.com/Oevap6w.png" alt="Slide 3" className="rounded-lg border border-gray-300 shadow-md"
+/>
       </div>
     </Carousel>
     </div>
